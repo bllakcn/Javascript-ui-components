@@ -1,0 +1,17 @@
+.triggers{
+  display: flex;
+  list-style: none;
+  gap: 1em;
+}
+.trigger-tab{
+  background-color: aliceblue;
+  padding: 1em ;
+  border: 2px solid black;
+  box-shadow: 5px 5px 0 -2px white, 5px 5px 0 0 black;
+  cursor: pointer;
+}
+.trigger-tab.active{
+  background-color: aqua;
+  transition: background-color 0.3s;
+}
+

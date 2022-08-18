@@ -1,0 +1,15 @@
+.snackbar{
+  position: absolute;
+  display: none;
+  text-align: center;
+  width: 150px;
+  top: 0;
+  left: 50%;
+  margin-left: -75px;
+  background-color: aliceblue;
+  padding: 1em;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+.snackbar.active-snack{
+  display: block;
+}

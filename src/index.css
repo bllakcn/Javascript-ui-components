@@ -2,3 +2,11 @@ body{
   font-family: sans-serif;
   margin: 1em 2em;
 }
+button{
+  background-color: aliceblue;
+  border: 2px solid black;
+  box-shadow: 5px 5px 0 -2px white, 5px 5px 0 0 black;
+  padding: 1em;
+  font-size: large;
+  cursor: pointer;
+}
